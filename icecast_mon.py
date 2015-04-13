@@ -17,6 +17,8 @@ try:
     URL_STREAM = sys.argv[1]
 except:
     URL_STREAM = ""
+
+########### EDIT HERE ############
 SMTP_USER = "user@gmail.com"
 SMTP_PASS = "PASSWORD"
 SMTP_SERVER = "smtp.gmail.com"
@@ -24,6 +26,7 @@ SMTP_PORT = 587
 TO = "someone@gmail.com"
 STATE_FILE = '/tmp/icecast_check.state'
 AVPROBE_PATH = '/root/bin/avprobe'
+########### DONT CHAGE BELLOW HERE ############
 
 def stdout_log(message):
     now = datetime.datetime.today().isoformat()
